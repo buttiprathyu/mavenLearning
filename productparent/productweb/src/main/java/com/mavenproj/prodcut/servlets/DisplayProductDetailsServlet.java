@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
-import com.bharath.product.bo.ProductBO;
-import com.bharath.product.dto.Product;
+import com.mavenproj.product.bo.ProductBO;
+import com.mavenproj.product.dto.Product;
 
 /**
  * Servlet implementation class DisplayProductDetailsServlet
