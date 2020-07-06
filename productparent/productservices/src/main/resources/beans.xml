@@ -6,9 +6,9 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean id="productdao" class="com.bharath.product.dao.ProductDAOImpl" />
+	<bean id="productdao" class="com.mavenproj.product.dao.ProductDAOImpl" />
 	
-	<bean id="productbo" class="com.bharath.product.bo.ProductBOImpl">
+	<bean id="productbo" class="com.mavenproj.product.bo.ProductBOImpl">
 		<property name="dao" ref="productdao" />
 	</bean>
 
