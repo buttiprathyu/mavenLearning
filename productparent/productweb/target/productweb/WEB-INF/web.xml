@@ -16,13 +16,13 @@
 		<servlet-name>CreateProductServlet</servlet-name>
 		<display-name>CreateProductServlet</display-name>
 		<description></description>
-		<servlet-class>com.bharath.prodcut.servlets.CreateProductServlet</servlet-class>
+		<servlet-class>com.mavenproj.prodcut.servlets.CreateProductServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>DisplayProductDetailsServlet</servlet-name>
 		<display-name>DisplayProductDetailsServlet</display-name>
 		<description></description>
-		<servlet-class>com.bharath.prodcut.servlets.DisplayProductDetailsServlet</servlet-class>
+		<servlet-class>com.mavenproj.prodcut.servlets.DisplayProductDetailsServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>CreateProductServlet</servlet-name>
